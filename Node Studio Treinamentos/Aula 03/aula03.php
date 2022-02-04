@@ -39,7 +39,7 @@
         public function Logar() {
             if ($this->email == 'teste@teste.com' and $this->senha == '123456'):
 
-                echo '"Logado " com sucesso! <hr>';
+                echo '"Logado" com sucesso! <hr>';
 
             else:
 
