@@ -2,7 +2,7 @@
 
     //Aula 03 - "Getters" e "Setters"
 
-    class Login {
+    class Login_1 {
         
         //Caso os atributos sejam "private", eles não poderão ser acessados de fora da classe (salvo apenas com "getters" e "setters"):
         
@@ -50,7 +50,7 @@
 
     }
 
-    $logar = new Login(); //Agora, "$logar" é um objeto "Login".
+    $logar = new Login_1(); //Agora, "$logar" é um objeto "Login".
     
     //$logar->email = 'teste@teste.com';
     //$logar->senha = '123456';
