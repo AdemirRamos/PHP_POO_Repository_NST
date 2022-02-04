@@ -2,7 +2,7 @@
 
     //Aula 04 - Construtor
 
-    class Login {
+    class Login_2 {
 
         private $email;
         private $senha;
@@ -54,7 +54,7 @@
 
     }
 
-    $logar = new Login('teste@teste.com', '123456', 'Ademir'); //O Construtor é inicializado ao se instanciar uma classe.
+    $logar = new Login_2('teste@teste.com', '123456', 'Ademir'); //O Construtor é inicializado ao se instanciar uma classe.
 
     $logar->Logar();
 
