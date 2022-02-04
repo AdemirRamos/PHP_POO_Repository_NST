@@ -10,10 +10,10 @@
 
         //O Construtor é um método:
 
-        public function __construct($e_mail, $pass, $name) {
+        public function __construct($e_mail, $password, $name) {
             $this->nome = $name;
             $this->email_setter($e_mail);
-            $this->password_setter($pass);            
+            $this->password_setter($password);            
         }
 
         //Toda vez que uma classe for criada, esse método (acima) será inicializado.
@@ -43,7 +43,7 @@
         public function Logar() {
             if ($this->email == 'teste@teste.com' and $this->senha == '123456' and $this->nome == 'Ademir'):
 
-                echo '"Logado " com sucesso! <hr>';
+                echo '"Logado" com sucesso! <hr>';
 
             else:
 
