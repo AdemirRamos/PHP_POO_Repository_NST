@@ -137,7 +137,9 @@
     print 'Novo ano definido, dentro do escopo de "Veículo", por conta da prorpiedade "ano" (\'private\'), foi: "';
     print $veículo->year_getter(). '". <hr>';
 
-    print var_dump($veículo). '<hr>'; //Por conta de "private", a propriedade "ano" terá como valor "null".
+    print var_dump($veículo). '<hr>';
+    //Por conta de "private", a propriedade "ano" terá como valor "null" - caso "year_setter/year_getter" não sejam chamadas corretamente.
+    
     var_dump($veículo->ano);
 
 ?>
