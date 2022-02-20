@@ -1,5 +1,5 @@
 <?php
 
-    //Aula 20 - Composer.
+    //Aula 20 - Composer
 
 ?>
