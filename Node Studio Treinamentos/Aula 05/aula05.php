@@ -37,12 +37,12 @@
     $carro = new Carro();
 
     $carro->modelo = 'Gol';
-    $carro->cor  = 'Vermelho';
+    $carro->cor = 'Vermelho';
     $carro->ano = 2018;
     $carro->andar();
     $carro->para_brisa();
 
-    echo 'Conteúdo de <strong>"$carros"</strong>: ';
+    echo 'Conteúdo de <strong>"$carro"</strong>: ';
 
     echo var_dump($carro). '<hr>';
 
