@@ -17,7 +17,7 @@
     
     */
 
-    //1ª: escreve "require";
+    //1ª: escreva "require";
     //2ª: digite o nome da biblioteca entre aspas;
     //3ª: digite a versão da biblioteca, entre aspas (após dois pontos);
     //3.1ª: caso se tenha mais de uma dependência, basta, após a primeira, colocar uma vírgula e digitar a próxima (e assim por diante);
