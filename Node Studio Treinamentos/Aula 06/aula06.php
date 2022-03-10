@@ -86,7 +86,7 @@
     $carro->andar();
     $carro->para_brisa();
 
-    echo 'Conteúdo de <strong>"$carros"</strong>: ';
+    echo 'Conteúdo de <strong>"$carro"</strong>: ';
 
     echo var_dump($carro). '<hr>';
 
